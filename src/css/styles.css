@@ -58,6 +58,7 @@ body {
   top: 12px;
   transform: translate(-50%);
   width: 100%;
+  z-index: 999;
 }
 
 .header .container {
