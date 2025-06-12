@@ -255,6 +255,31 @@ body {
   letter-spacing: -0.78px;
 }
 
+.desc-btn {
+  color: #09090988;
+  text-align: center;
+  font-family: 'Futura PT';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 100%; /* 14px */
+
+  max-width: 280px;
+  margin: 20px auto 0;
+}
+
+.scroll-btn {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 30px;
+}
+
+.scroll-btn.buy-btn {
+  display: none;
+  animation: none;
+}
+
 /* bonuses */
 
 .bonuses {
@@ -1230,7 +1255,7 @@ body {
 /* footer */
 
 .footer {
-  padding: 60px 0;
+  padding: 60px 0 140px;
 }
 
 .footer .container {
