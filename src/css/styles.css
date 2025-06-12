@@ -273,11 +273,13 @@ body {
   left: 50%;
   transform: translate(-50%);
   bottom: 30px;
+  width: 100%;
 }
 
 .scroll-btn.buy-btn {
   display: none;
   animation: none;
+  width: 100%;
 }
 
 /* bonuses */
