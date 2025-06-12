@@ -274,12 +274,14 @@ body {
   transform: translate(-50%);
   bottom: 30px;
   width: 100%;
+  max-width: 280px;
 }
 
 .scroll-btn.buy-btn {
   display: none;
   animation: none;
   width: 100%;
+  max-width: 280px;
 }
 
 /* bonuses */
